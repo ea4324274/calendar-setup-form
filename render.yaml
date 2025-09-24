@@ -1,0 +1,7 @@
+# render.yaml
+services:
+  - type: static_site
+    name: calendar-setup-form
+    env: node
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
